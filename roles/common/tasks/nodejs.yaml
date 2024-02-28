@@ -1,0 +1,12 @@
+- name: disable old nodejs andenable nodejs:18
+  ansible.builtin.shell: dnf module disable nodejs -y; dnf module enable nodejs:18 -y
+
+- name: Install nodejs
+  ansible.builtin.dnf:
+    name: nodejs
+    state: present
+
+- name: Installing Dependencies
+  ansible.builtin.command: npm install
+  args:
+    chdir: /app
