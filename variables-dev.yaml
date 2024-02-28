@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb-dev.techwithgopi.online # submit your host
+REDIS_HOST: redis-dev.techwithgopi.online
+MYSQL_HOST: mysql-dev.techwithgopi.online
+RABBITMQ_HOST: rabbitmq-dev.techwithgopi.online
+CATALOGUE_HOST: catalogue-dev.techwithgopi.online
+USER_HOST: user-dev.techwithgopi.online
+CART_HOST: cart-dev.techwithgopi.online
+SHIPPING_HOST: shipping-dev.techwithgopi.online
+PAYMENT_HOST: payment-dev.techwithgopi.online
+DISPATCH_HOST: dispatch-dev.techwithgopi.online
